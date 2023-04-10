@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Roller DAO </title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <h1>ROLLER DAO </h1>
+         <h2>Crowdfunding Platform</h2>
+         <img src="image.jpg" alt="Logo or banner image">
+         <nav>
+            <ul>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#create-project">Create a Project</a></li>
+               <li><a href="#about">About</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <section id="intro">
+            
+            <h2>Welcome to Roller DAO</h2>
+            <img src="RDAO.jpg" alt="Logo or banner image" id="logo-image">
+            <p>Roller DAO is a crowdfunding platform that allows creators to seek funding for their projects. Backers can support these projects by locking their tokens, and if the project meets its funding goal, backers will receive rewards from the creator.</p>
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#create-project" class="btn btn-secondary">Create a Project</a>
+         </section>
+         <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+               <li>
+                  <h3>Project Title</h3>
+                  <p>Project Description</p>
+                  <p>Funding Goal: X tokens</p>
+                  <p>Deadline: Month XX, 20XX</p>
+                  <a href="#" class="btn btn-primary">Back this Project</a>
+               </li>
+               <li>
+                  <h3>Project Title</h3>
+                  <p>Project Description</p>
+                  <p>Funding Goal: X tokens</p>
+                  <p>Deadline: Month XX, 20XX</p>
+                  <a href="#" class="btn btn-primary">Back this Project</a>
+               </li>
+               <!-- Repeat for all projects -->
+            </ul>
+         </section>
+         <section id="create-project">
+            <h2>Create a Project</h2>
+            <form>
+               <div class="form-group">
+                  <label for="project-title">Project Title</label>
+                  <input type="text" id="project-title" name="project-title" required>
+               </div>
+               <div class="form-group">
+                  <label for="project-description">Project Description</label>
+                  <textarea id="project-description" name="project-description" required></textarea>
+               </div>
+               <div class="form-group">
+                  <label for="funding-goal">Funding Goal (in tokens)</label>
+                  <input type="number" id="funding-goal" name="funding-goal" required>
+               </div>
+               <div class="form-group">
+                  <label for="deadline">Deadline</label>
+                  <input type="date" id="deadline" name="deadline" required>
+               </div>
+               <button type="submit" class="btn btn-primary">Create Project</button>
+            </form>
+         </section>
+         <section id="about">
+            <h2>About Roller DAO</h2>
+            <p>Roller Dao is a crowdfunding platform, built and executed as a Roll up in the Cartesi ecosystem.
+                Roller DAO creators look for funding to develop their projects. In order to do this, they submit a summary of how the project is going to work and the necessary steps to make it happen. They set their project’s funding goal and deadline.
+                Users in the role of sponsors or backers, are able to support creators' ideas, by linking their wallets and locking their tokens to help make the idea happen, within the deadline previously established.
+                If the project succeeds in reaching its funding goal, tokens will be given to the creator in different stages, stated previously and according to the project development. Sponsors will be rewarded with benefits by creators. This will be beforehand established by creators.
+                If the project doesn’t succeed in reaching its funding goal, tokens will be returned to backers.</p>
+         </section>
+      </main>
+      <footer>
+         <p>&copy; 2023 Roller DAO. All rights reserved
