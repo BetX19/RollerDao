@@ -52,5 +52,5 @@ Roller Dao aims to be a tool that unites Creators and Sponsor in a decentralized
 
 11. Tech stack
 
-
 12. Project demo link (page url)
+
